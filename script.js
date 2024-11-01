@@ -14,23 +14,26 @@ const btn=()=>{
 
    const mydiv=document.getElementById('result-div');
    const definition = data[0].meanings[0].definitions[0].definition;
+
    const word = data[0].word
      
    mydiv.innerHTML=`
    
- 
-                <p>${definition}</p>
-                <p>${word}</p>
-              
-   
-   
+             <h4> <span style='text-decoration:underline'>main word:</span> ${word}</h4>
+                <h4 style='text-decoration:underline'>defination:${definition}</h4>
+               
    `
-    /*
 
 
 
 
-    */
+   
+
+document.getElementById('btn').value='';
+
+
+
+
 
 
 
