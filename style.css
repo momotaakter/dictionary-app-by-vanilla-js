@@ -54,3 +54,17 @@ h1{
     text-decoration: underline;
    
 }
+
+#result-div{
+  box-shadow:1px 1px 3px 0px rgba(0, 0, 0, 0.349);
+
+  height:200px;
+  width:50%;
+  border-radius:5px;
+  margin: auto;
+}
+i{
+    font-size:13px;
+    padding:10px;
+    box-shadow:1px 1px 3px 0px rgba(0, 0, 0, 0.349);;
+}
